@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <h1>Arrow Function</h1>
+        <p id="result"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
+        <p id="result5"></p>
+        <script>
+            add=(a,b)=>a+b;
+            document.getElementById("result").innerHTML="The sum is "+add(4,6);
+
+            subtract=(c,d)=>c-d;
+            document.getElementById("result2").innerHTML="The difference is "+subtract(10,6);
+
+            multiply=(e,f)=>e*f;
+            document.getElementById("result3").innerHTML="The product is "+multiply(10,6);
+
+            divide=(g,h)=>g/h;
+            document.getElementById("result4").innerHTML="The quotient is "+divide(10,2);
+
+            perimeter=(i,j)=>2*(i+j);
+            document.getElementById("result5").innerHTML="The perimeter is "+perimeter(16,24);
+        </script>
+    </body>
+</html>
